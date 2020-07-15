@@ -1,9 +1,9 @@
 from PySide2.QtWidgets import QVBoxLayout
 
-from pyexiftool import exiftool
-from table import TableWidget
-from tools import ToolWidget
-from utility import exiftool_exe
+from .pyexiftool import exiftool
+from .table import TableWidget
+from .tools import ToolWidget
+from .utility import exiftool_exe
 
 
 class ExifWidget(ToolWidget):

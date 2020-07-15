@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-from tools import ToolWidget
+from .tools import ToolWidget
 
 
 class ResamplingWidget(ToolWidget):

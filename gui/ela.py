@@ -10,10 +10,10 @@ from PySide2.QtWidgets import (
     QSpinBox,
     QLabel)
 
-from jpeg import compress_img
-from tools import ToolWidget
-from utility import elapsed_time, equalize_img, desaturate, create_lut
-from viewer import ImageViewer
+from .jpeg import compress_img
+from .tools import ToolWidget
+from .utility import elapsed_time, equalize_img, desaturate, create_lut
+from .viewer import ImageViewer
 
 
 class ElaWidget(ToolWidget):

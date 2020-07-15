@@ -16,9 +16,9 @@ from PySide2.QtWidgets import (
     QVBoxLayout,
     QProgressDialog)
 
-from tools import ToolWidget
-from utility import elapsed_time, modify_font, load_image
-from viewer import ImageViewer
+from .tools import ToolWidget
+from .utility import elapsed_time, modify_font, load_image
+from .viewer import ImageViewer
 
 
 class CloningWidget(ToolWidget):

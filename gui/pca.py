@@ -11,9 +11,9 @@ from PySide2.QtWidgets import (
     QRadioButton,
     QCheckBox)
 
-from tools import ToolWidget
-from utility import norm_mat, modify_font, norm_img, equalize_img
-from viewer import ImageViewer
+from .tools import ToolWidget
+from .utility import norm_mat, modify_font, norm_img, equalize_img
+from .viewer import ImageViewer
 
 
 class PcaWidget(ToolWidget):

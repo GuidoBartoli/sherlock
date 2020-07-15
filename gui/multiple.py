@@ -6,8 +6,8 @@ from PySide2.QtWidgets import (
     QVBoxLayout,
     QProgressDialog)
 
-from jpeg import compress_img
-from tools import ToolWidget
+from .jpeg import compress_img
+from .tools import ToolWidget
 
 
 class MultipleWidget(ToolWidget):

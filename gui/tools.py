@@ -5,7 +5,7 @@ from PySide2.QtWidgets import (
     QTreeWidgetItem,
     QWidget)
 
-from utility import modify_font
+from .utility import modify_font
 
 
 class ToolWidget(QWidget):
@@ -139,7 +139,7 @@ class ToolTree(QTreeWidget):
             font.setBold(True)
             group_item.setFont(0, font)
             group_item.setData(0, Qt.UserRole, False)
-            group_item.setIcon(0, QIcon('icons/{}.svg'.format(i)))
+            group_item.setIcon(0, QIcon('gui/icons/{}.svg'.format(i)))
             for j, tool in enumerate(tool_names[i]):
                 tool_item = QTreeWidgetItem(group_item)
                 tool_item.setText(0, tool)

@@ -16,8 +16,8 @@ from PySide2.QtWidgets import (
 from matplotlib.backends.backend_qt5agg import FigureCanvas
 from matplotlib.figure import Figure
 
-from tools import ToolWidget
-from utility import compute_hist, modify_font, ParamSlider, color_by_value
+from .tools import ToolWidget
+from .utility import compute_hist, modify_font, ParamSlider, color_by_value
 
 
 class HistWidget(ToolWidget):

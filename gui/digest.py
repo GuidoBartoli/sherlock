@@ -13,9 +13,9 @@ from PySide2.QtWidgets import (
     QVBoxLayout,
     QMessageBox)
 
-from table import TableWidget
-from tools import ToolWidget
-from utility import human_size
+from .table import TableWidget
+from .tools import ToolWidget
+from .utility import human_size
 
 
 def ballistics(filename):

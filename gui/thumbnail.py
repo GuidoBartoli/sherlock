@@ -6,9 +6,9 @@ from PySide2.QtWidgets import (
     QLabel,
     QVBoxLayout)
 
-from tools import ToolWidget
-from utility import modify_font, exiftool_exe
-from viewer import ImageViewer
+from .tools import ToolWidget
+from .utility import modify_font, exiftool_exe
+from .viewer import ImageViewer
 
 
 class ThumbWidget(ToolWidget):

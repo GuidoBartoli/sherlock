@@ -7,7 +7,7 @@ from PySide2.QtWidgets import (
     QRadioButton,
     QHBoxLayout)
 
-from tools import ToolWidget
+from .tools import ToolWidget
 
 
 class ReverseWidget(ToolWidget):
@@ -15,15 +15,15 @@ class ReverseWidget(ToolWidget):
         super(ReverseWidget, self).__init__(parent)
 
         self.tineye_radio = QRadioButton(self.tr('TinEye'))
-        self.tineye_radio.setIcon(QIcon('icons/tineye.png'))
+        self.tineye_radio.setIcon(QIcon('gui/icons/tineye.png'))
         self.google_radio = QRadioButton(self.tr('Google'))
-        self.google_radio.setIcon(QIcon('icons/google.svg'))
+        self.google_radio.setIcon(QIcon('gui/icons/google.svg'))
         self.bing_radio = QRadioButton(self.tr('Bing'))
-        self.bing_radio.setIcon(QIcon('icons/bing.svg'))
+        self.bing_radio.setIcon(QIcon('gui/icons/bing.svg'))
         self.root_radio = QRadioButton(self.tr('RootAbout'))
-        self.root_radio.setIcon(QIcon('icons/rootabout.png'))
+        self.root_radio.setIcon(QIcon('gui/icons/rootabout.png'))
         self.karma_radio = QRadioButton(self.tr('KarmaDecay'))
-        self.karma_radio.setIcon(QIcon('icons/karmadecay.jpg'))
+        self.karma_radio.setIcon(QIcon('gui/icons/karmadecay.jpg'))
         self.tineye_radio.setChecked(True)
         self.last_radio = self.tineye_radio
         self.web_view = QWebEngineView()

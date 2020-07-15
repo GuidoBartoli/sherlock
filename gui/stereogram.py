@@ -7,9 +7,9 @@ from PySide2.QtWidgets import (
     QHBoxLayout,
     QVBoxLayout)
 
-from tools import ToolWidget
-from utility import norm_mat, modify_font, gray_to_bgr, norm_img
-from viewer import ImageViewer
+from .tools import ToolWidget
+from .utility import norm_mat, modify_font, gray_to_bgr, norm_img
+from .viewer import ImageViewer
 
 
 class StereoWidget(ToolWidget):

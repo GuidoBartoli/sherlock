@@ -10,9 +10,9 @@ from PySide2.QtWidgets import (
     QVBoxLayout,
     QLabel)
 
-from tools import ToolWidget
-from utility import create_lut, norm_mat, equalize_img, elapsed_time
-from viewer import ImageViewer
+from .tools import ToolWidget
+from .utility import create_lut, norm_mat, equalize_img, elapsed_time
+from .viewer import ImageViewer
 
 
 class GradientWidget(ToolWidget):

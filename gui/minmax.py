@@ -12,9 +12,9 @@ from PySide2.QtWidgets import (
     QProgressDialog,
     QLabel)
 
-from tools import ToolWidget
-from utility import elapsed_time, norm_mat
-from viewer import ImageViewer
+from .tools import ToolWidget
+from .utility import elapsed_time, norm_mat
+from .viewer import ImageViewer
 
 
 class MinMaxWidget(ToolWidget):

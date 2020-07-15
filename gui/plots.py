@@ -18,8 +18,8 @@ from matplotlib.backends.backend_qt5agg import (
     NavigationToolbar2QT as NavigationToolbar)
 from matplotlib.figure import Figure
 
-from tools import ToolWidget
-from utility import elapsed_time
+from .tools import ToolWidget
+from .utility import elapsed_time
 
 
 class PlotsWidget(ToolWidget):

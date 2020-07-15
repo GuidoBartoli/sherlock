@@ -8,9 +8,9 @@ from PySide2.QtWidgets import (
     QSpinBox,
     QCheckBox)
 
-from tools import ToolWidget
-from utility import auto_lut, equalize_img
-from viewer import ImageViewer
+from .tools import ToolWidget
+from .utility import auto_lut, equalize_img
+from .viewer import ImageViewer
 
 
 class MagnifierWidget(ToolWidget):

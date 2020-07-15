@@ -25,7 +25,7 @@ from PySide2.QtWidgets import (
     QVBoxLayout,
     QHBoxLayout)
 
-from utility import mat2img, modify_font
+from .utility import mat2img, modify_font
 
 
 class DynamicView(QGraphicsView):
@@ -201,7 +201,7 @@ class ImageViewer(QWidget):
         export_button = QToolButton()
         export_button.setToolTip(self.tr('Export current image to PNG'))
         # export_button.setText(self.tr('Export...'))
-        export_button.setIcon(QIcon('icons/export.svg'))
+        export_button.setIcon(QIcon('gui/icons/export.svg'))
 
         tool_layout = QHBoxLayout()
         tool_layout.addWidget(QLabel(self.tr('Zoom:')))

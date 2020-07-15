@@ -119,44 +119,29 @@ Here are some screenshots from the previous C++ Qt GUI (to be updated with the n
 
 ## Linux
 ```
-Install package manager
-$ sudo apt install python3-distutils python3-dev subversion
-$ wget https://bootstrap.pypa.io/get-pip.py
-$ sudo python3 get-pip.py
-
-Setup virtual environments
-$ sudo pip install virtualenv virtualenvwrapper
-$ echo -e "\n# Python Virtual Environments" >> ~/.bashrc
-$ echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.bashrc
-$ echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> ~/.bashrc
-$ echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
-$ source ~/.bashrc
-$ mkvirtualenv sq -p python3
+Install with pip
+$ Make sure you have git installed
+$ git clone https://github.com/GuidoBartoli/sherloq.git
+$ pip install --user sherloq
 ```
 
 ## MacOS
 ```
 1) Open Terminal and enter `python3 --version` to install the interpreter and other command line tools
 2) Once installed, proceed similarly to Linux installation:
+   $ brew install wget
+   $ git --version
    $ wget https://bootstrap.pypa.io/get-pip.py
    $ sudo python3 get-pip.py
-   $ sudo pip install virtualenv virtualenvwrapper
-   $ echo -e "\n# Python Virtual Environments" >> ~/.bash_profile
-   $ echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.bash_profile
-   $ echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> ~/.bash_profile
-   $ echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bash_profile
-   $ source ~/.bash_profile
-3) $ mkvirtualenv sq -p python3
+   $ git clone https://github.com/GuidoBartoli/sherloq.git
+   $ pip install --user sherloq
 ```
 
 ## Windows
 You can follow [this guide](https://timmyreilly.azurewebsites.net/python-pip-virtualenv-installation-on-windows/) (the *Flask* installation is optional).
 
 ## Linux, MacOS, Windows
-1. Clone repository content into a local folder
-1. Change current directory to the `gui` folder inside `sherloq`
-1. Execute `pip install -r requirements.txt`
-1. Launch the program with `python sherloq.py`
+1. Launch the program with `sherloq`
 
 ## Instructions for Conda
 1. Download and install [Anaconda](https://www.anaconda.com/products/individual) (one can also install miniconda, no GUI but is smaller)

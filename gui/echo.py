@@ -9,9 +9,9 @@ from PySide2.QtWidgets import (
     QSpinBox,
     QLabel)
 
-from tools import ToolWidget
-from utility import elapsed_time, create_lut, bgr_to_gray3
-from viewer import ImageViewer
+from .tools import ToolWidget
+from .utility import elapsed_time, create_lut, bgr_to_gray3
+from .viewer import ImageViewer
 
 
 class EchoWidget(ToolWidget):

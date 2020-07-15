@@ -9,14 +9,14 @@ from PySide2.QtWidgets import (
     QGridLayout,
     QMessageBox)
 
-from jpeg import estimate_qf
+from .jpeg import estimate_qf
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-from noiseprint.noiseprint import genNoiseprint
-from noiseprint.noiseprint_blind import genMappUint8
-from noiseprint.noiseprint_blind import noiseprint_blind_post
-from tools import ToolWidget
-from utility import modify_font, norm_mat, gray_to_bgr
-from viewer import ImageViewer
+from .noiseprint.noiseprint import genNoiseprint
+from .noiseprint.noiseprint_blind import genMappUint8
+from .noiseprint.noiseprint_blind import noiseprint_blind_post
+from .tools import ToolWidget
+from .utility import modify_font, norm_mat, gray_to_bgr
+from .viewer import ImageViewer
 
 
 class SplicingWidget(ToolWidget):

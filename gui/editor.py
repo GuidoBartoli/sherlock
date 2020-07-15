@@ -2,7 +2,7 @@ from PySide2.QtCore import QUrl
 from PySide2.QtWebEngineWidgets import QWebEngineView
 from PySide2.QtWidgets import QVBoxLayout
 
-from tools import ToolWidget
+from .tools import ToolWidget
 
 
 class EditorWidget(ToolWidget):

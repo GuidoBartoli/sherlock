@@ -7,9 +7,9 @@ from PySide2.QtWidgets import (
     QVBoxLayout,
     QSpinBox)
 
-from tools import ToolWidget
-from utility import norm_mat
-from viewer import ImageViewer
+from .tools import ToolWidget
+from .utility import norm_mat
+from .viewer import ImageViewer
 
 
 class PlanesWidget(ToolWidget):

@@ -4,9 +4,9 @@ from PySide2.QtCore import QUrl, QTemporaryDir, Qt
 from PySide2.QtWebEngineWidgets import QWebEngineView
 from PySide2.QtWidgets import QVBoxLayout, QLabel
 
-from pyexiftool import exiftool
-from tools import ToolWidget
-from utility import exiftool_exe, modify_font
+from .pyexiftool import exiftool
+from .tools import ToolWidget
+from .utility import exiftool_exe, modify_font
 
 
 class LocationWidget(ToolWidget):

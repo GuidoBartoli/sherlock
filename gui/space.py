@@ -7,9 +7,9 @@ from PySide2.QtWidgets import (
     QComboBox,
     QHBoxLayout)
 
-from tools import ToolWidget
-from utility import modify_font
-from viewer import ImageViewer
+from .tools import ToolWidget
+from .utility import modify_font
+from .viewer import ImageViewer
 
 
 class SpaceWidget(ToolWidget):

@@ -9,9 +9,9 @@ from PySide2.QtWidgets import (
     QVBoxLayout,
     QProgressDialog)
 
-from tools import ToolWidget
-from utility import compute_hist, gray_to_bgr
-from viewer import ImageViewer
+from .tools import ToolWidget
+from .utility import compute_hist, gray_to_bgr
+from .viewer import ImageViewer
 
 
 class ContrastWidget(ToolWidget):

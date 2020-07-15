@@ -9,9 +9,9 @@ from PySide2.QtWidgets import (
     QVBoxLayout,
     QSpinBox)
 
-from tools import ToolWidget
-from utility import create_lut, elapsed_time, equalize_img
-from viewer import ImageViewer
+from .tools import ToolWidget
+from .utility import create_lut, elapsed_time, equalize_img
+from .viewer import ImageViewer
 
 
 class NoiseWidget(ToolWidget):

@@ -7,8 +7,8 @@ from PySide2.QtWidgets import (
     QLabel,
     QRadioButton)
 
-from tools import ToolWidget
-from viewer import ImageViewer
+from .tools import ToolWidget
+from .viewer import ImageViewer
 
 
 class StatsWidget(ToolWidget):

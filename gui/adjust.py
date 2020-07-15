@@ -8,9 +8,9 @@ from PySide2.QtWidgets import (
     QPushButton,
     QComboBox)
 
-from tools import ToolWidget
-from utility import create_lut, ParamSlider
-from viewer import ImageViewer
+from .tools import ToolWidget
+from .utility import create_lut, ParamSlider
+from .viewer import ImageViewer
 
 
 class AdjustWidget(ToolWidget):

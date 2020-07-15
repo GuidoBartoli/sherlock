@@ -9,9 +9,9 @@ from PySide2.QtWidgets import (
     QGridLayout,
     QSpinBox)
 
-from tools import ToolWidget
-from utility import norm_mat, elapsed_time, modify_font
-from viewer import ImageViewer
+from .tools import ToolWidget
+from .utility import norm_mat, elapsed_time, modify_font
+from .viewer import ImageViewer
 
 
 class FrequencyWidget(ToolWidget):
